@@ -39,7 +39,6 @@ activities<-rbind(activities_test, activities_train)
 
 #consolidate subject and activity data
 
-
 activitieslist<-c("Walking", "Walking Upstairs", "Walking Downstairs", 
                   "Sitting", "Standing", "Laying")
 activity<-activitieslist[activities[,1]]
